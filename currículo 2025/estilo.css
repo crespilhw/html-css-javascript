@@ -1,0 +1,170 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(73, 73, 73);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.avatar{
+    max-width: 100%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.logo-titulo{
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+
+.logo-git{
+    max-width: 100%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+header .container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(153, 153, 153) 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+nav ul {
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    padding: 0 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(143, 143, 143);
+}
+
+.secao a{
+    color: white;
+    text-decoration: none;
+}
+.secao a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: bold;
+}
+
+
+.secao {
+    padding: 20px;
+    margin-top: 10px;
+    background: linear-gradient( to right, rgb(56, 56, 56), rgb(0, 0, 0)) ;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255) ;
+    padding-bottom: 10px;
+}
+
+
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(148, 148, 148);
+    color: rgb(255, 255, 255);
+}
+
+.formulario {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.formulario input, textarea {
+    width: 90%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+button{
+    display: block;
+    padding: 5px;
+    width: 10%;
+    border-radius: 5px;
+    background: linear-gradient( to right, rgb(231, 231, 231), rgb(255, 255, 255)) ;
+    box-shadow: 0 2px 5px black;
+}
+
+button:hover{
+    color: rgb(0, 38, 255)
+}
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+.botao-git{
+    display: block;
+    padding: 10px;
+    width: 10%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: linear-gradient( to right, rgb(104, 0, 117), rgb(195, 0, 255)) ;
+    box-shadow: 0 2px 5px black;
+    color: white;
+}
+
