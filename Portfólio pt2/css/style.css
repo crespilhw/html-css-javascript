@@ -1,0 +1,70 @@
+header{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 30px;
+   
+    box-shadow: 0 0 8px rgba(0, 0, 0);
+}
+body{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: large;
+ background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ 
+}
+.secao-sobre{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0);
+    text-align: center;
+}
+.secao{
+
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0);
+   
+
+}
+.secao-tabela{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0);
+    tab-size: 10cm;
+}
+.secao2{
+     background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+}
+.imagem-ig{
+    border-radius: 8px;
+    width: 1000px;
+    height: auto;
+    border-image: 8px;
+}
+
+table, th, td{
+    border: 1px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+}
