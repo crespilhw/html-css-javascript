@@ -1,0 +1,67 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.questao{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+button.a{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #dd3245;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+button.b{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #385baa;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+button.c{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #d3a230;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+button.d{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #287818;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
