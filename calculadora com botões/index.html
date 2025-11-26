@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Captura de tela 2025-11-26 093224.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <!-- Visor da calculadora -->
+        <div class="calculadora-display">
+            <!-- Usando 'readonly' para impedir edição direta do visor -->
+            <input type="text" id="num" placeholder="0" readonly>
+        </div>
+
+        <!-- Botões da calculadora -->
+        <div class="botoes">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button operator">÷</button>
+        </div>
+        <div class="botoes">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button operator">x</button>
+        </div>
+        <div class="botoes">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button operator">-</button>
+        </div>
+        <div class="botoes">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button c">C</button>
+            <button class="button operator">+</button>
+        </div>
+        <div class="botoes">
+            <button class="button equal">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
