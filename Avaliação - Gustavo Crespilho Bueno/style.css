@@ -1,0 +1,138 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    margin: auto;
+    margin-top: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+}
+
+body .home {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+    margin-top: 250px;
+}
+
+.home button {
+    background-color: black;
+    height: 70px;
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.home p {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.home h1 {
+    font-size: 50px;
+}
+
+.produtos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+nav :hover {
+    color: rgb(197, 197, 197);
+}
+
+.produtos .cimento {
+    box-shadow: 0 4px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produtos .areia {
+    box-shadow: 0 4px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produtos .tijolo {
+    box-shadow: 0 4px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produtos img {
+    height: 400px;
+}
+
+footer {
+    background-color: #000000 ;
+    color: white;
+    height: 50px;
+    margin-top: 319px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos-solo {
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.produtos-solo button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos-solo .tijolo img {
+    height: 500px;
+}
+
+.produtos-solo .cimento img {
+    height: 500px;
+}
+
+.produtos-solo .areia img {
+    height: 500px;
+}
+
+p {
+    font-size: large;
+}
+
+.footer2 footer {
+    margin-top: 275px;
+}
+
+.footer3 footer {
+    margin-top: 245px;
+}
+
+.areia, .tijolo, .cimento {
+    width: 500px;
+    height: 500px;
+}
